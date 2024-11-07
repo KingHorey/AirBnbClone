@@ -1,1 +1,5 @@
 AJ Iyanu <ajiyanu@AJIyanu.>
+
+
+
+git log --format='%aN <%aE>' | sort -uf
