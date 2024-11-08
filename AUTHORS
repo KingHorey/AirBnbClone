@@ -2,4 +2,4 @@ AJ Iyanu <ajiyanu@AJIyanu.>
 
 
 
-git log --format='%aN <%aE>' | sort -uf
+git log --format='%aN <%aE>' | sort -ufcd 
