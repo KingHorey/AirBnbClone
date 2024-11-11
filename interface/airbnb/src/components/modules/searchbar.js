@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Form, FormControl, Button, InputGroup } from 'react-bootstrap';
+import "../../styles.css"
+import { Form/*, FormControl, Button, InputGroup */} from 'react-bootstrap';
 
 function SearchBar () {
     const [search, setSearch] = useState('');
@@ -9,20 +10,12 @@ function SearchBar () {
     }
 
     return (
-        <Form inline>
-            <InputGroup className="mb3">
-                <FormControl
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    value={search}
-                    onChange={handleSearchBar}
-                    />
-                <Button variant="outline-primary">
-                <i className="bi bi-search" />
-                    {/* Search */}
-                </Button>
-            </InputGroup>
+        <Form inline className="searchbar">
+            <input
+                value={search}
+                onChange={handleSearchBar}
+            />
+            <i className="bi bi-search" />
         </Form>
     )
 }

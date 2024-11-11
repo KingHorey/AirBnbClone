@@ -1,0 +1,43 @@
+.searchbar {
+    position: relative;
+    width: 390px;
+}
+
+.searchbar input {
+    width: 100%;
+    border-radius: 30px;
+    border-color: #FF5A5F;
+    outline: none;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.searchbar i {
+    position: absolute;
+    right: 20px;
+    top: 3px;
+    color: #FF5A5F;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.userdropdown, .userdropdown:hover, .userdropdown:active {
+    background-color: transparent;
+    border-radius: 30px;
+    height: 50px;
+    width: 85px;
+    border: 1px solid gray;
+}
+
+.userdropdown i {
+    color: rgb(72, 70, 70);
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+.topbar {
+    border-bottom: 1px solid #FF5A5F;
+    box-shadow: 0px -3px 12px;
+}
